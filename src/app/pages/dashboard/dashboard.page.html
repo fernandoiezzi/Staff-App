@@ -1,0 +1,78 @@
+<ion-content>
+<ion-item>
+  <ion-searchbar placeholder="Pesquisar..."></ion-searchbar>
+</ion-item>
+
+<ion-item>
+  <ion-card>Bem vindo, Usuário</ion-card>
+</ion-item>
+
+<div class="status-status">
+  <div class="status">
+    <br>
+  <label class="status-text">Status: </label>
+  </div>
+  <br>
+  
+  <div class="online-offline">
+  <select>
+    <option value="Escolha um status">Escolha um status</option>
+    <option value="Online">Online</option>
+    <option value="Offline">Offiline</option>
+  </select>
+  
+  </div>
+  </div>
+
+<div class="funcionarios-online">
+  <br>
+  <label><strong>2745 funcionários conectados</strong></label>
+</div>
+
+<div class="lista-de-funcionarios">
+    
+    <div class="pessoa">
+    Xavier Silva <ion-badge color="success">Online</ion-badge>
+    </div>
+    <div class="pessoa">
+    Fábio Assunção <ion-badge color="danger">Offline</ion-badge>
+    </div>
+    <div class="pessoa">
+    Lucas Barroso <ion-badge color="danger">Offline</ion-badge>
+  </div>
+  <div class="pessoa">
+    João Paulo Silvino <ion-badge color="success">Online</ion-badge>
+  </div>
+  <div class="pessoa">
+    Júlio Azevedo <ion-badge color="danger">Offline</ion-badge>
+  </div>
+</div>
+
+
+<div class="button">
+<ion-button color="danger" href="/login">Sair</ion-button>
+</div>
+
+<ion-tabs>
+
+<ion-tab-bar slot="bottom">
+
+  <ion-tab-button>
+    <ion-icon name="person"></ion-icon>
+  </ion-tab-button>
+
+  <ion-tab-button>
+    <ion-icon name="call"></ion-icon>
+  </ion-tab-button>
+
+  <ion-tab-button>
+    <ion-icon name="settings"></ion-icon>
+  </ion-tab-button>
+
+  <ion-tab-button>
+    <ion-icon name="chatbox"></ion-icon>
+  </ion-tab-button>
+
+</ion-tab-bar>
+</ion-tabs>
+</ion-content>

@@ -1,0 +1,47 @@
+.online-offline{
+    padding: 20px;
+    font-size: 13px;
+}
+
+.status-text{
+    padding-top: 40px;
+    padding-left: 20px;
+    font-size: 13px;
+    font-style: bold;
+}
+
+.status{
+    padding: 5px;
+}
+
+.status-status{
+    display:flex;
+}
+
+.lista-de-funcionarios{
+    background-color:gray;
+    color:white;
+    padding:15px;
+    margin:15px;
+    border-radius:5px;
+    
+}
+
+.funcionarios-online{
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.pessoa{
+    justify-content:space-between;
+    display:flex;
+    padding:5px;
+}
+
+.button{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
